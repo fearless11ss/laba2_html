@@ -51,6 +51,7 @@ header h1
     padding-top: 80px;
     display: flex;
     justify-content: space-around;
+    padding-bottom: 80px;
 }
 
 .intro
@@ -90,4 +91,42 @@ header h1
 .video
 {
     height: 51.5px;
+}
+
+.gallery
+{
+    padding-top: 10px;
+    background-color: white;
+    color: black;
+    padding-bottom: 60px;
+}
+
+.gallery h1
+{
+    background-color: white;
+    color: black;
+}
+
+.gallery_photos
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.gallery_photos img
+{
+    height: 250px;
+}
+
+.review_photos
+{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.review_photos img
+{
+    width: 540px;
 }
