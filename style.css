@@ -9,6 +9,11 @@
     text-decoration: none;
 }
 
+.buttons a:hover
+{
+    background-color: rgb(70, 70, 70);
+}
+
 body header
 {
     display: flex;
@@ -69,6 +74,11 @@ header h1
     color: black;
 }
 
+.inner_block1 a:hover
+{
+    background-color: rgb(200, 200, 200);
+}
+
 .inner_block2
 {
     display: flex;
@@ -119,6 +129,17 @@ header h1
     height: 250px;
 }
 
+.gallery_photos img:hover
+{
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.reviews
+{
+    padding-bottom: 80px;
+}
+
 .review_photos
 {
     display: flex;
@@ -129,4 +150,64 @@ header h1
 .review_photos img
 {
     width: 540px;
+}
+
+.review_photos img:hover
+{
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.form_section
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+    align-items: center;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+}
+
+.form h1
+{
+    background-color: white;
+    color: black;
+}
+
+form
+{
+    background-color: white;
+}
+
+form input
+{
+    border-radius: 10px;
+    background-color: gray;
+    width: 100%;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+}
+
+form input::placeholder
+{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+}
+
+form button
+{
+    border-radius: 20px;
+    width: 100%;
+    padding: 20px;
+    font-size: larger;
 }
